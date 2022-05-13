@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login page</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        html, body{
+            width:100%;
+            height: 100%;
+            position: relative;
+        }
+        body{
+            background-image: url(./farm/chicken.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+
+        }
+    .submit{
+    color: black;
+    background-color: rgb(130, 72, 46);
+    font-weight: bolder;
+    font-size:40px;
+    text-align: center;
+    width:200px;
+    height:80px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+        }
+    .submit:hover{
+    background-color: rgb(106, 77, 66);
+    color: black;
+        }
+    #userName{
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    width:300px;
+    height:40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    }
+    </style>
+</head>
+<body>
+    <form  action="startPlay.html">
+        <input id="userName" type="text" name="user name" placeholder="Enter your name" autofocus>
+        <input class="submit" type="submit" value="Login">
+    </form>
+    
+</body>
+<script src="loginPage.js"></script>
+</html>
